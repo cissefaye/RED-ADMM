@@ -26,11 +26,20 @@ Saving results
 - Create a `results/` folder to store reconstructions, metric logs (CSV), and any checkpoints.
 
 
+🖼 Example Images
+🔍 Input (Degraded / Observed)
+<img src="images/obs_0000.png" width="350"/>
+✨ Output (Reconstruction via RED-ADMM)
+<img src="images/rec_0000.png" width="350"/>
+🧾 Original Reference Image
+<img src="images/test_image.png" width="350"/>
+
 📚 Reference
 
 Romano, Y., Elad, M., & Milanfar, P. (2017). 
 "The little engine that could: Regularization by denoising (RED)."
 SIAM journal on imaging sciences, 10(4), 1804-1844.
+
 
 
 
