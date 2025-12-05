@@ -28,7 +28,9 @@ Saving results
 
 📚 Reference
 
-Romano, Y., Elad, M., & Milanfar, P. (2017). The little engine that could: Regularization by denoising (RED).
+Romano, Y., Elad, M., & Milanfar, P. (2017). 
+"The little engine that could: Regularization by denoising (RED)."
 SIAM journal on imaging sciences, 10(4), 1804-1844.
+
 
 
