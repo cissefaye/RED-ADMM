@@ -35,9 +35,6 @@ Notes & best practices
 Saving results
 - Create a `results/` folder to store reconstructions, metric logs (CSV), and any checkpoints.
 
-Contributing and automation
-- To add development tooling: add a `dev-requirements.txt` and a GitHub Actions workflow that runs linters and tests on push/PRs.
-
 Need help?
 - If you want, I can:
 	- Apply safe notebook updates (add seeding, `model.eval()`, `torch.no_grad()`, PSNR logging),
@@ -45,4 +42,5 @@ Need help?
 	- Add CI and basic unit tests.
 
 ---
+
 
