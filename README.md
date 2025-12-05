@@ -4,7 +4,6 @@ Overview
 - This repository contains an implementation of Regularization by Denoising (RED) for solving inverse problems (e.g. image inpainting) using an ADMM solver and a denoising prior (DRUNet / UNet-based denoiser).
 
 Repository structure
-- `Untitled.ipynb`: example notebook that runs the main reconstruction loop, evaluates PSNR, and displays results.
 - `algorithm/`: ADMM solver implementation (`admm_solver.py`).
 - `prior/`: prior model and network definitions; pretrained weights expected at `prior/drunet_color.pth`.
 - `utils/`: helper modules (dataset loader, operators, metrics, plotting).
@@ -14,19 +13,15 @@ Prerequisites
 - Python 3.8 or newer is recommended.
 - CUDA-compatible GPU is recommended for faster inference, but the code can run on CPU.
 
-Installation (PowerShell)
+Installation 
 ```powershell
-# Create and activate a virtual environment (optional but recommended)
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-
 # Upgrade pip and install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
 Model weights
-- Place the denoiser weights at `prior/drunet_color.pth` before running the notebook or scripts.
+- Place the denoiser weights at `prior/` before running the scripts.
 
 Quick start
 - Open `Untitled.ipynb` (in VS Code or Jupyter) and run the cells. The notebook loads the prior once and processes images found under `data/*.png`.
@@ -50,4 +45,4 @@ Need help?
 	- Add CI and basic unit tests.
 
 ---
-This README was generated automatically; feel free to edit.
+
