@@ -28,9 +28,9 @@ Saving results
 
 🖼 Example Images
 
-|       | Observed Image | RED-ADMM | Ground truth |
-| :---  | :--- |  :--- |  :--- |
-| **Inpainting** | <img src="data/obs_0000.png" width="200"/>  | <img src="data/rec_0000.png" width="200"/> | <img src="data/test_image.png" width="200"/> |
+| | Observed Image | RED-ADMM | Ground truth |
+| :--- | :---: | :---: | :---: |
+| **Inpainting** | <img src="data/obs_0000.png" width="200"/> | <img src="data/rec_0000.png" width="200"/> | <img src="data/test_image.png" width="200"/> |
 
 ---
 
@@ -39,6 +39,7 @@ Saving results
 Romano, Y., Elad, M., & Milanfar, P. (2017). 
 "The little engine that could: Regularization by denoising (RED)."
 SIAM journal on imaging sciences, 10(4), 1804-1844.
+
 
 
 
